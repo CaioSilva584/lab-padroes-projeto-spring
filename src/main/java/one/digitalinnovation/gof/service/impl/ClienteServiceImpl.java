@@ -29,8 +29,8 @@ public class ClienteServiceImpl implements ClienteService {
     @Autowired
     private ViaCepService viaCepService;
 
-    // TODO Strategy: Implementar os métodos definidos na interface.
-    // TODO Facade: Abstrair integrações com subsistemas, provendo uma interface simples.
+    // Strategy: Implementar os métodos definidos na interface.
+    // Facade: Abstrair integrações com subsistemas, provendo uma interface simples.
 
     @Override
     public Iterable<Cliente> buscarTodos() {
