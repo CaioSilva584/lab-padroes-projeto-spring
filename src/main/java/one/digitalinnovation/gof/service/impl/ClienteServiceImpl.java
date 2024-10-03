@@ -21,7 +21,7 @@ import java.util.Optional;
 @Service
 public class ClienteServiceImpl implements ClienteService {
 
-    // TODO Singleton: Injetar os componentes do Spring com @Autowired.
+    // Singleton: Injetar os componentes do Spring com @Autowired.
     @Autowired
     private ClienteRepository clienteRepository;
     @Autowired
